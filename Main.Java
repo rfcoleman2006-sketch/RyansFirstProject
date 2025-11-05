@@ -11,7 +11,7 @@ File file = new File("grades.txt");
 // B1: Create a Scanner to read the file
 Scanner input = new Scanner(file);
 // B2: Print "Student Grades:"
-System.out.println("Student Grades:");
+System.out.println("Students summer grades:");
 // B3: Read and print each line from the file
 while (input.hasNextLine()) {
 String line = input.nextLine();
